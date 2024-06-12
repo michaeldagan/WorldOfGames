@@ -22,14 +22,14 @@ def load_game():
     if game < 1 or game > 3:
         exit(1)
 
-    diff = int(input("Please choose game difficulty from 1 to 5:"))
-    if diff < 1 or diff > 5:
+    difficulty = int(input("Please choose game difficulty from 1 to 5:"))
+    if difficulty < 1 or difficulty > 5:
         exit(2)
 
 
     if game == 1:
-        MemoryGame.play(diff)
+        MemoryGame.play(difficulty)
     elif game == 2:
-        GuessGame.play(diff)
+        GuessGame.play(difficulty)
     elif game == 3:
-        CurrencyRouletteGame.play(diff)
+        CurrencyRouletteGame.play(difficulty)

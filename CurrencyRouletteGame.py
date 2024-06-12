@@ -10,12 +10,12 @@ def get_currency_rate():
     print(f'response is {response}')
     return response.json()['rates']['ILS']
 
-def get_monny_interval(difficalty, amount_in_usd):
+def get_monny_interval(difficulty, amount_in_usd):
     print(f'random number is {amount_in_usd}')
     amount_in_usd = generate_number()
     rate = get_currency_rate()
     ils = rate * amount_in_usd
-    offset = 5 - difficalty
+    offset = 5 - difficulty
     return ils - offset, ils + offset
 def get_guess_from_user(amount_in_usd):
     guess_money = (int(input(f"How much are {amount_in_usd} USD value in ILS:")))
@@ -28,9 +28,9 @@ def compare_results(min_interval, gess, max_interval):
     else:
         print("You lost the game")
 
-def play(difficalty):
+def play(difficulty):
     amount_in_usd = generate_number()
-    min_interval, max_interval = get_monny_interval(difficalty, amount_in_usd)
+    min_interval, max_interval = get_monny_interval(difficulty, amount_in_usd)
     print(f'min interval is {min_interval}, max_interval is {max_interval}')
     gess = get_guess_from_user(amount_in_usd)
     print(gess)
@@ -52,13 +52,13 @@ play(3)
 #         print("You lost the game")
 #
 #
-# def play(diff):
+# def play(difficulty):
 #     gen_money = generate_money()
 #     print(gen_money)
 #     total_money = get_guess_from_user()
 #     print(total_money)
-#     print(get_money_interval(total_money, diff))
-#     money_int = get_money_interval(total_money, diff)
+#     print(get_money_interval(total_money, difficulty))
+#     money_int = get_money_interval(total_money, difficulty)
 #     low_money, high_money = money_int
 #     print(low_money)
 #     print(high_money)
@@ -66,8 +66,8 @@ play(3)
 #
 # # play(3)
 #
-# #     x = generate_sequence(diff)
+# #     x = generate_sequence(difficulty)
 # #     print(x)
-# #     y = get_guess_from_user(diff)
+# #     y = get_guess_from_user(difficulty)
 # #     print(y)
 # #     compare_results(x, y)
