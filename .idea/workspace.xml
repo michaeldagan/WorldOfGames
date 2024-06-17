@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14ab4d43-e9f1-4424-b06a-b0ada8d4af0a" name="Changes" comment="ex4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" />
-    </list>
+    <list default="true" id="14ab4d43-e9f1-4424-b06a-b0ada8d4af0a" name="Changes" comment="ex4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,7 +271,47 @@
       <option name="project" value="LOCAL" />
       <updated>1718615644276</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ex4">
+      <option name="closed" value="true" />
+      <created>1718618595817</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1718618595817</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ex4">
+      <option name="closed" value="true" />
+      <created>1718618604064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1718618604064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ex4">
+      <option name="closed" value="true" />
+      <created>1718619324482</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718619324482</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ex4">
+      <option name="closed" value="true" />
+      <created>1718619346704</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718619346704</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ex4">
+      <option name="closed" value="true" />
+      <created>1718619365026</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718619365026</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
